@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library</title>
+    <link href="style.css" type="text/css" rel="stylesheet">
+    <script src="dist/library.js" type="module"></script>
+</head>
+<body>
+    <div id="content">
+        <nav id="navbar">
+            <a href="index.html">Home</a>
+        </nav>
+        <div id="filters">
+            <form action="library.html" method="get">
+                <label for="sort">Sort: </label>
+                <select name="sort" id="sort" required>
+                    <option value="title">Title</option>
+                    <option value="publishedAt">Published</option>
+                </select>
+                <label for="order">Order: </label>
+                <select name="order" id="order" required>
+                    <option value="asc">Ascending</option>
+                    <option value="desc">Descending</option>
+                </select>
+
+                <input type="submit" value="Apply">
+            </form>
+        </div>
+        <div id="articles">
+        </div>
+        <div id="footer">
+            <a href="https://github.com/czakk" target="_blank">&copyCezary Banaczyk</a>
+        </div>
+    </div>
+</body>
+</html>

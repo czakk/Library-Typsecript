@@ -1,5 +1,6 @@
-# New Project
-
+# Library-Typescript
+### Cezary Banaczyk
+#
 > ✨ Bootstrapped with Create Snowpack App (CSA).
 
 ## Available Scripts
